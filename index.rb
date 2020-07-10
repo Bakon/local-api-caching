@@ -20,13 +20,6 @@ def fix_api_urls obj_or_arr
   end
 end
 
-if [condition] [then]
-else [condition]
-
-  {dog: 
-    { key: 'sdffsgfdsgfg'    }
-  }
-
 
 get '/api/v2/*' do
   full_api_url = POKE_API_URL + params['splat'].join('')
